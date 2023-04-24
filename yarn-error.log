@@ -1,0 +1,43 @@
+Arguments: 
+  /home/sanskar-khandelwal/.nvm/versions/node/v18.16.0/bin/node /home/sanskar-khandelwal/.nvm/versions/node/v18.16.0/bin/yarn add --dev hardhatw
+
+PATH: 
+  /home/sanskar-khandelwal/.vscode-server/bin/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/bin/remote-cli:/home/sanskar-khandelwal/.nvm/versions/node/v18.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/test/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/test/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/test/AppData/Roaming/npm:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hardhatw: Not found
+      at params.callback [as _callback] (/home/sanskar-khandelwal/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/sanskar-khandelwal/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/sanskar-khandelwal/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/sanskar-khandelwal/.nvm/versions/node/v18.16.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "EarlyAccess-dApp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Sanskar-khandelwal/EarlyAccess-dApp.git",
+    "author": "Sanskar Khandelwal <sanskarkhandelwal336@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
